@@ -1,0 +1,58 @@
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-heading{
+    color: black;
+    font-size: 39px;
+    margin: 10px;
+}
+
+.hero-para{
+    color: gray;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.hero-button{
+    background-color: rgb(50, 50, 235);
+    color: white;
+    border: 0px solid;
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+}
+
+.hero-section-image{
+    width:650px;
+    height: 450px;
+}
+
+.hero-button:hover{
+    box-shadow: 15px 15px 20px rgb(50, 50, 235);
+}
+
+@media screen and (max-width:768px){
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-container{
+        text-align: center;
+    }
+    .hero-section-image{
+        margin: 30px;
+        width: 100%;
+        max-width: 550px;
+        height: 100%;
+        max-width: 550px;
+    }
+
+}

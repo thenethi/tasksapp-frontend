@@ -1,0 +1,40 @@
+.tasks-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasks-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-items{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 10px;
+}
+
+#title-input{
+    margin: 5px;
+}
+
+#description-input{
+    margin: 5px;
+}
+
+.add-task-button{
+    background-color: rgb(53, 53, 227);
+    border-radius: 10px;
+    margin:40px;
+    padding: 10px;
+    color: white;
+    border: 0px solid;
+    align-self: flex-end;
+    cursor: pointer;
+    outline: none;
+}
